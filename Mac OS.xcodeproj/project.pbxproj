@@ -23,14 +23,14 @@
 		9B82C378133D6098001577C0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9B82C37A133D6098001577C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9B82C37C133D6098001577C0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9B82C380133D6098001577C0 /* Mac OS-Info.plist */ = {isa = PBXFileReference; path = "Mac OS-Info.plist"; sourceTree = "<group>"; };
+		9B82C380133D6098001577C0 /* Mac OS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mac OS-Info.plist"; sourceTree = "<group>"; };
 		9B82C382133D6098001577C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9B82C384133D6098001577C0 /* Mac OS-Prefix.pch */ = {isa = PBXFileReference; path = "Mac OS-Prefix.pch"; sourceTree = "<group>"; };
+		9B82C384133D6098001577C0 /* Mac OS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mac OS-Prefix.pch"; sourceTree = "<group>"; };
 		9B82C385133D6098001577C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9B82C387133D6098001577C0 /* Mac_OSAppDelegate.h */ = {isa = PBXFileReference; path = Mac_OSAppDelegate.h; sourceTree = "<group>"; };
+		9B82C387133D6098001577C0 /* Mac_OSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mac_OSAppDelegate.h; sourceTree = "<group>"; };
 		9B82C388133D6098001577C0 /* Mac_OSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mac_OSAppDelegate.m; sourceTree = "<group>"; };
 		9B82C38B133D6098001577C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		9B82C38D133D6098001577C0 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		9B82C38D133D6098001577C0 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		9B82C38E133D6098001577C0 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		9B82C391133D6098001577C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
