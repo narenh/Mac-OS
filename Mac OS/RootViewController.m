@@ -13,6 +13,7 @@
 - (void)viewDidLoad
 {
     self.title = @"Mac OS Versions";
+    versions = [[NSArray alloc] initWithObjects:@"Cheetah",@"Puma",@"Jaguar",@"Panther",@"Tiger",@"Leopard",@"Snow Leopard",@"Lion", nil];
     [super viewDidLoad];
 }
 
@@ -52,7 +53,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 0;
+    return [versions count];
 }
 
 // Customize the appearance of table view cells.
@@ -64,7 +65,7 @@
     if (cell == nil) {
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
-
+    cell.textLabel.text = [versions objectAtIndex:indexPath.row];
     // Configure the cell.
     return cell;
 }
